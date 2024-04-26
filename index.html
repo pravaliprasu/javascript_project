@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+      body{
+       background-image:url("https://content.altexsoft.com/media/2020/11/shutterstock_147619601-1.jpg") ;
+      }
+     button{
+       margin-left: 600px;
+       background-color:white;
+       color: black;
+       font-size: 35PX;
+       margin-left: 550px;
+       margin-top: 20px;
+       font-Style:italic;
+       font-family: 'Times New Roman', Times, serif;
+     }
+     marquee{
+      margin-top: 100px;
+     }
+     
+    </style>
+</head>
+<body>
+    
+<marquee behaviour="scroll" scrollamount="15"><img src="./suzuki.jpg"width="300px" ></marquee>
+<button>GO TO NEXT PAGE</button>
+
+<script>
+
+    var btn=document.getElementsByTagName("button")
+    btn[0].addEventListener("click",function(){
+        window.location.assign("./index1.html")
+    })
+
+</script>
+</body>
+</html> 
